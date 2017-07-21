@@ -1,0 +1,19 @@
+#goal definition
+int32 source
+
+geometry_msgs/Point[] vertex_list
+int32 vertex_number
+---
+
+#result definition
+int32[] new_edge_list
+int32 new_edge_number
+
+geometry_msgs/Point[] new_vertex_list
+int32 new_vertex_number
+
+float64[] new_theta_list
+int32 new_theta_number
+---
+
+#feedback
