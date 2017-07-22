@@ -171,7 +171,7 @@ bool vertex_pq_comparator(vertex * vv1, vertex * vv2) {
 void graph_delete(graph * gg) {
 	graph_ * g = (graph_ *) gg;
 	
-	for(vertex * vertex_iter : *(g->vertex_list)) {
+	for(vertex * vertex_iter : *(g->vertex_list))
 		free(vertex_iter);
 	
 	for(edge * edge_iter : *(g->edge_list))
