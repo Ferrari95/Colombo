@@ -1,0 +1,10 @@
+#goal definition
+geometry_msgs/Point[] goals_list
+int32 goals_number
+float64 final_theta
+---
+
+#result definition
+---
+
+#feedback
